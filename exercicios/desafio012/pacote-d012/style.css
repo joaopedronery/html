@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabeçalho {
+    height: 270px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Passion One", cursive;
+}
+
+#cabeçalho h1 {
+    padding-top: 106px;
+    font-size: 4.5em;
+}
+
+.estrofe {
+    font-family: "Sriracha", cursive;
+    font-size: 2em;
+    padding: 60px 0px;
+}
+
+.estrofe p {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+
+}
+
+#estrofe2 {
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#estrofe2 p {
+    background-color: rgba(0, 0, 0, 0.308);
+    text-shadow: 1px 1px 5px black;
+    color: white;
+}
+
+#estrofe5 {
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#estrofe5 p {
+    background-color: rgba(0, 0, 0, 0.308);
+    text-shadow: 1px 1px 5px black;
+    color: white;
+}
