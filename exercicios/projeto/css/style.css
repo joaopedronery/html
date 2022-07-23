@@ -1,0 +1,354 @@
+body {
+    width: 100%;
+    background-image: radial-gradient(rgba(184, 182, 182, 0.199),rgba(184, 182, 182, 0.596));
+}
+
+#logo-title {
+    font-size: 1rem;
+}
+
+#navbar-div {
+    width: 70%;
+    margin: auto;
+}
+
+#mynavbar {
+    margin-left: 30px;
+}
+
+.navbar-nav {
+    width: 50%;
+}
+
+.dropdown-menu {
+    background-color: rgb(33, 37, 41);
+    border: none;
+}
+
+#login-mobile {
+    display: none;
+}
+
+.dropdown-item {
+    color: #C7C8C9;
+}
+
+
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+
+#presentation-bg {
+    background-image: radial-gradient(rgba(184, 182, 182, 0.534),rgb(184, 182, 182));
+    height: 450px;
+}
+
+
+
+#presentation {
+    width: 70%;
+    margin: auto;
+}
+
+#presentation {
+    padding-top: 30px;
+}
+
+
+#presentation-1 {
+    display: flex;
+    align-items: center;
+}
+
+#presentation-1 > h1 {
+    height: min-content;
+}
+
+#content {
+    width: 70%;
+    margin: 10px auto;
+    box-shadow: 0px 0px 8px 5px #88888880;
+    background-color: white;
+}
+
+.presentation-items {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.presentation-items::marker {
+    content: '✔️  ';   
+}
+
+
+
+#content h2 {
+    padding-top: 45px;
+    text-align: center;
+}
+
+#why-invest-reasons {
+    width: 85%;
+    margin:40px auto;
+    padding-bottom: 25px;
+}
+
+#why-invest-reasons p {
+    font-size: 1.1rem;
+}
+
+#why-invest-reasons h3 {
+    text-align: center;
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+
+#why-invest-reasons p {
+    text-align: center;
+    padding: 0px 10px;    
+}
+
+#retirement {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/retirement-og.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+
+#retirement-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+#retirement-text h2 {
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+}
+
+#investment-advisory {
+    background-color: #bab8b852;
+}
+
+#investment-advisory h2 {
+    font-size: 2rem;
+    width: 85%;
+    margin: auto;
+}
+
+#sub-investment-advisory {
+    margin: 60px auto;
+    width: 85%;
+    text-align: center;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+}
+
+#sub-investment-advisory div:nth-child(1) h3 {
+    margin-bottom: 35px;
+}
+
+#sub-investment-advisory div:nth-child(2) h3 {
+    margin-bottom: 0;
+}
+
+#wealth-management-sub {
+    font-size: 0.7rem;
+}
+
+#investment-advisory h3 {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+#comparison-tables h2 {
+    padding-top: 0;
+    margin-bottom: 40px;
+    width: 85%;
+    margin: 40px auto;
+}
+
+#comparison-tabs {
+    width: 85%;
+    margin: auto;
+}
+
+.tab-nav-link {
+    text-align: center;
+    font-size: 1.35rem;
+    color: rgba(0, 0, 0, 0.836);
+    height: 100%;
+}
+
+.tab-nav-item {
+    padding: 0;
+    background-color: rgba(186, 184, 184, 0.178);
+    border: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+#cp-table {
+    width: 100%;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.322);
+}
+
+#cp-table td {
+    text-align: center;
+    padding: 15px;
+}
+
+.table-benefits {
+    padding: 15px;
+    border-top-width: 0.5px;
+    border-style: dotted;
+    border-color: rgba(128, 128, 128, 0.322);
+    font-weight: 600;
+}
+
+.table-companies {
+    text-align: center;
+    padding: 15px;
+    border-top-width: 0.5px;
+    border-left-width: 0.5px;
+    border-style: dotted;
+    border-color: rgba(128, 128, 128, 0.322);
+}
+
+#cp-table td {
+    border-top-width: 0.5px;
+    border-style: dotted;
+    border-color: rgba(128, 128, 128, 0.322);
+    border-left-width: 0.5px;
+    height: 50px;
+}
+
+.table-highlight {
+    background-color: #2B6B1E;
+    color: white;
+    border-color: white !important;
+    padding: 30px;
+    font-weight: 700;
+}
+
+.table-highlight p {
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+
+@media (max-width: 918px) {
+    #presentation-bg {
+        height: 620px
+    }
+
+    .div-table {
+        overflow-x: auto;
+    }
+}
+
+@media (min-width: 577px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    
+    .dropdown .dropdown-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    #presentation-1 > h1 {
+        margin-bottom: 20px;
+        font-size: 2.2rem;
+    }
+    
+    #navbar-div {
+        width: 100%;
+    }
+
+    #login-desktop {
+        display: none;
+    }
+
+    #login-mobile {
+        display: inline;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    #mynavbar {
+        margin-left: 0;
+    }
+
+    .dropdown-menu {
+        background-color: rgba(46, 88, 129, 0.356);
+        border: none;
+    }
+
+    #presentation-bg {
+        background-image: radial-gradient(rgba(184, 182, 182, 0.534),rgb(184, 182, 182));
+        height: 700px;
+    }
+
+    #content {
+        width: 100%;
+        margin: 0px;
+    }
+
+    #why-invest {
+        width: 100%;
+    }
+
+    #retirement {
+        height: 500px;
+    }
+
+    #retirement-text {
+        width: 90%;
+    }
+
+    #retirement-text h2 {
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+    }
+
+    #investment-advisory h2 {
+        font-size: 1.7rem;
+    }
+
+    #sub-investment-advisory div:nth-child(1) h3 {
+        margin-bottom: 25px;
+    }
+
+    #sub-investment-advisory div:nth-child(2) h3 {
+        margin-top: 30px;
+    }
+
+    .tab-nav-link {
+        font-size: 0.85rem;
+        height: 100%;
+    }
+
+    #cp-table td {
+        font-size: 0.85rem;
+    }
+
+    .table-companies {
+        font-size: 0.85rem;
+    }
+
+    .table-benefits {
+        font-size: 0.85rem;
+    }
+    
+}
+
