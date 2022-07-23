@@ -25,7 +25,21 @@ body {
     border: none;
 }
 
-register
+#register-desktop {
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#register-desktop span {
+    border-bottom: 1px solid white;
+    padding-bottom: 0.2rem;
+}
+
+#register-desktop span:hover {
+    border-bottom: 2px solid #0B5ED7;
+    padding-bottom: 0.15rem;
+}
 
 #login-mobile {
     display: none;
@@ -284,6 +298,32 @@ register
     }
 }
 
+@media (max-width: 992px) {
+    #login-desktop {
+        display: none;
+    }
+
+
+    #login-mobile {
+        display: inline;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    #register-desktop {
+        display: none;
+    }
+
+    
+}
+
+@media (min-width: 993px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    
+}
+
 @media (max-width: 918px) {
     #presentation-bg {
         height: 620px
@@ -294,15 +334,7 @@ register
     }
 }
 
-@media (min-width: 577px) {
-    .dropdown:hover .dropdown-menu {
-        display: block;
-    }
-    
-    .dropdown .dropdown-menu {
-        display: none;
-    }
-}
+
 
 @media (max-width: 576px) {
     #presentation-1 > h1 {
@@ -317,6 +349,7 @@ register
     #login-desktop {
         display: none;
     }
+
 
     #login-mobile {
         display: inline;
