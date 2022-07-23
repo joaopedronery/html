@@ -25,6 +25,8 @@ body {
     border: none;
 }
 
+register
+
 #login-mobile {
     display: none;
 }
@@ -244,6 +246,43 @@ body {
     padding-top: 10px;
 }
 
+#certificates {
+    width: 85%;
+    margin: 120px auto;
+    margin-bottom: 0;
+}
+
+.certificate-div p{
+    text-align: center;
+    width: 85%;
+    font-size: 1.2rem;
+}
+
+
+.img-certificate {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.397);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 1200px) {
+    .certificate-img-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-certificate {
+        margin-bottom: 20px;
+    }
+
+    .certificate-div p{
+        width:35%;
+        margin: auto;
+        margin-bottom: 75px;
+    }
+}
 
 @media (max-width: 918px) {
     #presentation-bg {
