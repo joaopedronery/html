@@ -74,7 +74,16 @@ async function getPost(id) {
 // Post a comment
 
 async function postComment(comment) {
+    const response = await fetch(`${url}/${postId}/comments`, {
+        method: "POST",
+        body: comment,
+        headers: {
+            "Content-type": "application/json"
+        }
+    })
 
+    const data = await response.json();
+    createComment(data);
 }
 
 
@@ -108,7 +117,7 @@ if (!postId) {
             email: emailInput.value,
             body: bodyInput.value
         }
-        
-        JSON.stringify(comment);
+        comment = JSON.stringify(comment);
+        postComment(comment);
     })
 }
