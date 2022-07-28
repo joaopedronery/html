@@ -3,6 +3,10 @@ body {
     background-image: radial-gradient(rgba(184, 182, 182, 0.199),rgba(184, 182, 182, 0.596));
 }
 
+.hide {
+    display: none;
+}
+
 #logo-title {
     font-size: 1rem;
 }
@@ -323,6 +327,148 @@ body {
     padding-bottom: 60px;
 }
 
+#stock-charts {
+    width: 85%;
+    margin: 0px auto;
+    padding-bottom: 45px;
+}
+
+#stock-charts p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.stock-chart-container {
+    height: 370px;
+}
+
+#insights-intro {
+    background-color: #E9E8E8;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+#insights-intro-sub {
+    width: 85%;
+    margin: auto;
+}
+
+#insights-articles {
+    border-right: 1px solid rgba(128, 128, 128, 0.281);
+    padding-right: 30px;
+}
+
+#insights-articles h2 {
+    padding-top: 0px;
+    font-size: 1.65rem;
+    margin-bottom: 30px;
+    text-align: start;
+}
+
+.insight-article {
+    padding-bottom: 15px;
+}
+
+.insight-article h3 {
+    font-size: 1.15rem;
+}
+
+.insight-article a {
+    text-decoration: none;
+    color: #014fc5;
+}
+
+.insight-article a:hover {
+    color: #014fc598;
+}
+
+.insight-article p {
+    font-size: 1.1rem;
+}
+
+#see-all-articles {
+    margin-top: 40px;
+}
+
+#see-all-articles a{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#register-form {
+    padding-left: 40px;
+}
+
+#register-form h2 {
+    padding-top: 0px;
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+#register-form p {
+    font-size: 1.07rem;
+}
+
+#fname, #lname, #email {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#post-register-submit {
+    margin-top: 60px;
+}
+
+#post-register-submit h3 {
+    font-size: 1.1rem;
+    color: #509F00;
+}
+
+#post-register-submit h3::before {
+    content: "✅  ";
+}
+
+#contact {
+    width: 85%;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+#contact-sub p {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+#contact-ways {
+    margin-top: 60px;
+}
+
+#contact-way-1 p:nth-child(1) {
+    margin-bottom: 0px;
+}
+
+#contact-way-1 p:nth-child(3) {
+    padding-top: 0px;
+}
+
+.contact-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-way-2 a, #contact-way-3 a {
+    text-decoration: none;
+    color: #014fc5;
+}
+
+#contact-way-2 a:hover, #contact-way-3 a:hover {
+    color: #014fc598;
+}
+
 @media (max-width: 1200px) {
     .certificate-img-div {
         display: flex;
@@ -374,6 +520,18 @@ body {
         border: none;
     }
     
+
+    #insights-articles {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    #register-form {
+        margin-top: 40px;
+        padding-left: 0px;
+        border-top: 1px solid rgba(128, 128, 128, 0.281);
+        padding-top: 25px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -475,5 +633,16 @@ body {
         font-size: 0.85rem;
     }
     
+    #contact {
+        padding-bottom: 10px;
+    }
+    
+    #contact-ways > div {
+        padding-bottom: 45px;
+    }
+
+    #contact-sub p {
+        width: 100%;
+    }
 }
 
