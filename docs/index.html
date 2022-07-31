@@ -10,62 +10,64 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav id="main-navbar" class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <div id="navbar-div" class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="logo" style="width:60px;" class="rounded-pill">
-                <h1 id="logo-title">NSC Invest</h1>
-            </a>
-            <div id="div-register-login">
-                <a href="#" id="register-mobile"><span>Open an account</span></a>
-                <a href="#" id="login-mobile" class="btn btn-primary">Login</a>
+    <div>
+        <nav id="main-navbar" class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div id="navbar-div" class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="logo" style="width:60px;" class="rounded-pill">
+                    <h1 id="logo-title">NSC Invest</h1>
+                </a>
+                <div id="div-register-login">
+                    <a href="#" id="register-mobile"><span>Open an account</span></a>
+                    <a href="#" id="login-mobile" class="btn btn-primary">Login</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav d-flex justify-content-between">
+                        <li class="nav-item linknav dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#"><span class="navbar-navlink">Trade</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                                <li><a class="dropdown-item" href="#">Trade</a></li>
+                                <li><a class="dropdown-item" href="#">Deposit</a></li>
+                                <li><a class="dropdown-item" href="#">Withdraw</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item linknav dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#"><span class="navbar-navlink">Why NSC</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Planning & Advice</a></li>
+                                <li><a class="dropdown-item" href="#">Trading</a></li>
+                                <li><a class="dropdown-item" href="#">Security & Protection</a></li>
+                                <li><a class="dropdown-item" href="#">About NSC</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item linknav dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#"><span class="navbar-navlink">Investment Products</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Mutual Funds</a></li>
+                                <li><a class="dropdown-item" href="#">Retirement & IRAs</a></li>
+                                <li><a class="dropdown-item" href="#">Stocks & Trading</a></li>
+                                <li><a class="dropdown-item" href="#">Crypto</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item linknav dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#"><span class="navbar-navlink">Content</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Stocks</a></li>
+                                <li><a class="dropdown-item" href="#">Funds</a></li>
+                                <li><a class="dropdown-item" href="#">Crypto</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" id="register-desktop"><span>Open an account</span></a>
+                <a href="#" id="login-desktop" class="btn btn-primary">Login</a>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mynavbar">
-                <ul class="navbar-nav d-flex justify-content-between">
-                    <li class="nav-item linknav dropdown">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#"><span class="navbar-navlink">Trade</span></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Portfolio</a></li>
-                            <li><a class="dropdown-item" href="#">Trade</a></li>
-                            <li><a class="dropdown-item" href="#">Deposit</a></li>
-                            <li><a class="dropdown-item" href="#">Withdraw</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item linknav dropdown">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#"><span class="navbar-navlink">Why NSC</span></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Planning & Advice</a></li>
-                            <li><a class="dropdown-item" href="#">Trading</a></li>
-                            <li><a class="dropdown-item" href="#">Security & Protection</a></li>
-                            <li><a class="dropdown-item" href="#">About NSC</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item linknav dropdown">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#"><span class="navbar-navlink">Investment Products</span></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Mutual Funds</a></li>
-                            <li><a class="dropdown-item" href="#">Retirement & IRAs</a></li>
-                            <li><a class="dropdown-item" href="#">Stocks & Trading</a></li>
-                            <li><a class="dropdown-item" href="#">Crypto</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item linknav dropdown">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#"><span class="navbar-navlink">Content</span></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Stocks</a></li>
-                            <li><a class="dropdown-item" href="#">Funds</a></li>
-                            <li><a class="dropdown-item" href="#">Crypto</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <a href="#" id="register-desktop"><span>Open an account</span></a>
-            <a href="#" id="login-desktop" class="btn btn-primary">Login</a>
-        </div>
-    </nav>
+        </nav>
+    </div>
     <main id="main">
         <div id="presentation-bg">
             <div id="presentation" class="row">
@@ -462,7 +464,20 @@
             </div>
             <div id="footer-copyright" class="col-lg-5">
                 <p>Copyright 2001-2022 NSCJPN LLC. All Rights Reserved.</p>
+                <ul>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Acessibility</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Share Your Screen</a></li>
+                    <li><a href="#">Disclosures</a></li>
+                </ul>
             </div>
+        </div>
+        <div id="created-by">
+            <p>Created by <a href="https://www.linkedin.com/in/joão-pedro-soares-nery" target="_blank">João Pedro Nery</a></p>
         </div>
     </footer>
 

@@ -11,11 +11,7 @@ body {
     font-size: 1rem;
 }
 
-#main-navbar {
 
-    z-index: 2;
-    width: 100vw;
-}
 
 #navbar-div {
     width: 70%;
@@ -548,22 +544,28 @@ footer li a:hover {
 }
 
 #footer-logo img {
-    max-width: 90px;
+    max-width: 60px;
 }
 
 #footer-logo p {
     color: white;
     font-weight: 600;
+    margin: 0;
 }
 
 #footer-logo-list {
     list-style: none;
     color: white;
     padding: 0;
+    margin: 0;
 }
 
 #footer-logo-list li {
     padding: 5px;
+}
+
+#footer-logo-list li a::before {
+    content: "| ";
 }
 
 #footer-logo-list a {
@@ -576,7 +578,37 @@ footer li a:hover {
 
 #footer-copyright p {
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+#footer-copyright ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer-copyright a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    padding-right: 8px;
+}
+
+#footer-copyright a:hover {
+    color: rgba(255, 255, 255, 0.452);
+}
+
+#footer-copyright a::before {
+    content: "| ";
+}
+
+#created-by p {
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 @media (max-width: 1450px) {
@@ -662,6 +694,9 @@ footer li a:hover {
         margin-top: 25px;
     }
 
+    #footer-copyright {
+        margin-top: 25px;
+    }
 
 }
 
