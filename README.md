@@ -1,2 +1,2 @@
 # html
- Estudos sobre html e css
+ Site fictício de um corretora de ações.
